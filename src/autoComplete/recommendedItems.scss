@@ -1,0 +1,24 @@
+.auto-complete__recommended-items {
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+
+  .recommended-item {
+    padding: 10px;
+
+    font-size: 0.8rem;
+  }
+  .recommended-item:hover {
+    cursor: pointer;
+  }
+  .recommended-item-selected {
+    background-color: #dedede;
+  }
+  .full-name{
+    display: inline-block;
+    width: 30%;
+  }
+  .description {
+    display: inline-block;
+    width: 70%;
+  }
+}

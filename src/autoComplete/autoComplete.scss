@@ -1,0 +1,28 @@
+.auto-complete__input {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  font-size: 1.2rem;
+  width: 95%;
+  box-sizing: border-box;
+}
+.auto-complete__input:focus {
+  outline: none;
+}
+.auto-complete__submit-btn {
+  vertical-align: top;
+  padding: 15px 0;
+  width: 5%;
+  display: inline-block;
+  background-color: hsl(204, 86%, 53%);
+  border: 1px solid hsl(204, 86%, 50%);
+  color: white;
+}
+.auto-complete__submit-btn:hover {
+  background-color: hsl(204, 86%, 55%);
+  cursor: pointer;
+}
+.auto-complete__submit-btn {
+  outline: none;
+}
+
